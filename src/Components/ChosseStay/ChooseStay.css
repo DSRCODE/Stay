@@ -1,0 +1,52 @@
+.choose-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(255 92 0);
+  padding: 20px 30px;
+}
+.choose_details {
+  padding: 20px;
+  width: 50%;
+}
+.choose_details h4 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  word-spacing: 4px;
+}
+.choose_btn {
+  padding: 10px 23px;
+  color: rgb(255 92 0);
+  background-color: rgb(255, 255, 255);
+  font-size: 18px;
+  border-radius: 2px;
+  letter-spacing: 2px;
+  border: none;
+  transition: 0.3s;
+  margin-top: 30px;
+}
+.choose_btn:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 94, 0);
+  border: 1px solid white;
+}
+.choose_image {
+  overflow: hidden;
+  width: 40%;
+  height: 350px;
+}
+
+.choose_image img {
+
+  animation: zooming 8s infinite alternate;
+}
+
+@keyframes zooming {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}

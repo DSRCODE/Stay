@@ -7,30 +7,30 @@ import Lottie from "lottie-react";
 import choose from "../../assets/LottiFiles/choose1.json";
 
 const HomeSearch = () => {
-  let centerpage = useRef(null);
-  gsap.registerPlugin(ScrollTrigger);
-  useEffect(() => {
-    gsap.from(centerpage, {
-      opacity: 0.4,
-      duration: 1,
-      delay: 1,
-      scrollTrigger: {
-        trigger: centerpage,
-        scroller: "body",
-        // markers: "true",
-        start: "top 90%",
-        end: "top 50%",
-        scrub: true,
-      },
-    });
-  });
+  // let centerpage = useRef(null);
+  // gsap.registerPlugin(ScrollTrigger);
+  // useEffect(() => {
+  //   gsap.from(centerpage, {
+  //     opacity: 0.4,
+  //     duration: 1,
+  //     delay: 1,
+  //     scrollTrigger: {
+  //       trigger: centerpage,
+  //       scroller: "body",
+  //       // markers: "true",
+  //       start: "top 90%",
+  //       end: "top 50%",
+  //       scrub: true,
+  //     },
+  //   });
+  // });
   return (
     <>
       <div
         className="centerpage"
-        ref={(el) => {
-          centerpage = el;
-        }}
+        // ref={(el) => {
+        //   centerpage = el;
+        // }}
       >
         <div className="center-element1" id="usertype">
           <div className="C-element1">
