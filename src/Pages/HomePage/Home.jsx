@@ -7,6 +7,7 @@ import backgroundImage from "../../assets/3dback2.jpg";
 import room4 from "../../assets/room4.jpg";
 import HomeSearch from "../../Components/HomeSearch/HomeSearch";
 import ChooseStay from "../../Components/ChosseStay/ChooseStay";
+import Navbar from "../../Components/Navbar/Navbar";
 
 const Home = () => {
   // HomePage
@@ -49,6 +50,7 @@ const Home = () => {
   return (
     <>
       <div className="homepage">
+      <Navbar/>
         <div className="background-video">
           <img
             src={backgroundImage}

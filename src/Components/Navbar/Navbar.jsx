@@ -1,9 +1,9 @@
 import React from "react";
 import "./Navbar.css";
 
-const Navbar = () => {
+const Navbar = ({bgcolor, height}) => {
   return (
-    <div className="navbar">
+    <div className="navbar" style={{backgroundColor:bgcolor, height:height}}>
       <div className="navbar-box1">
         <div className="logo">
           <h1>Logo</h1>
@@ -22,8 +22,8 @@ const Navbar = () => {
         </div>
 
         <div className="navbar-element2">
-          <button>Sign Up</button>
-          <button>Log In</button>
+          <button className="nav_btn">Sign Up</button>
+          <button  className="nav_btn">Log In</button>
         </div>
       </div>
     </div>
